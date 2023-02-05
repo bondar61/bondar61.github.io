@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bondar61 - Links</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+    window.addEventListener('DOMContentLoaded', () => {
+        VANTA.BIRDS({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        backgroundAlpha: 0.0
+        })
+        setTimeout(() =>{
+            const main = document.querySelector('main')
+            main.style.opacity = 1
+            main.style.filter = 'blur(0px)'
+        }, 1000)
+        
+    })    
+    </script>
+</head>
+<body>
+    <div id="vanta"></div>
+    <main>
+        <header>
+            <img src="./media/IMG_5117.JPG" alt="my_photo">
+            <h1>@bondar61</h1>
+        </header>
+        <ul>
+            <li>
+                <a href="https://music.apple.com/kz/playlist/bdttripper/pl.u-vxy6kLXsoozZWr">
+                    <img src="./media/imusic-375.png" alt="music" width="20">
+                    Apple Music
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/bondar61/">
+                    <img src="./media/instagram-375.png" alt="instagram" width="20">
+                    Instagram
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./media/inkedin-375.png" alt="LinkedIn" width="20">
+                    LinkedIn
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/bondar61">
+                    <img src="./media/github-480.png" alt="github" width="20">
+                    GitHub
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/bondar61/">
+                    <img src="./media/home-375.png" alt="Homepage" width="20">
+                    Official Website
+                </a>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
